@@ -1,0 +1,26 @@
+.btn-1{
+    width: 100%;
+    right: 50%;
+    text-align: center;
+}
+.btn-1 button{
+    width: 150px;
+    height: 50px;
+    background: red;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+}
+.table-sec{
+    padding: 13% 50px;
+}
+.table-sec h1{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    color: white;
+}
+thead{
+    text-align: center;
+}

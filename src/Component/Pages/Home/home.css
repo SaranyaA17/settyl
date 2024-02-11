@@ -1,0 +1,40 @@
+.home tr,
+td,
+th {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+th {
+  font-size: 20px;
+}
+.home {
+  padding: 15px;
+}
+.home h1 {
+  text-align: center;
+}
+.home-sec{
+  text-align: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: calc(1);
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 50%;
+    height: 50%;
+  }
+
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+.dropdown{
+    width: 100%;
+   padding: 13% 50px;
+   text-align: center;
+   color: white;
+}
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1cadd6;
+}
+.dropdown-menu.show {
+    /* background: transparent; */
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.dropdown-menu{
+    color: white;
+
+}
+
+
