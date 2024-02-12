@@ -1,0 +1,7 @@
+.chart h1{
+    color: white;
+    padding-bottom: 50px;
+}
+.bar {
+    fill: rgb(36, 127, 162);
+}

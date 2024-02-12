@@ -15,13 +15,19 @@ th {
   text-align: center;
 }
 .home-sec{
+  margin-top: 15%;
   text-align: center;
   animation-duration: 1s;
   animation-name: slidein;
   animation-iteration-count: calc(1);
   animation-direction: alternate;
 }
-
+@media only screen and (max-width: 920px) {
+  .home-sec{
+    margin-top: 30%;
+  }
+  
+}
 @keyframes slidein {
   from {
     margin-top: 50%;

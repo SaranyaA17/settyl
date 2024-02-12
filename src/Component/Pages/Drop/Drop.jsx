@@ -48,7 +48,7 @@ const Drop = () => {
         <div className={`dropdown-menu ${isOpen ? 'show' : ''}`} style={{ width: '200px', maxHeight: '200px', overflowY: 'auto' }}>
         <a href="/Table" className="dropdown-item">Employees</a>
         <a href="/form" className="dropdown-item">New Employee</a>
-        <a href="#/action-3" className="dropdown-item">Something else</a>
+        <a href="/" className="dropdown-item" > Home</a>
       </div>
         
       )}

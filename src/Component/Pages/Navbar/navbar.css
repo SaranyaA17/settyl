@@ -11,3 +11,14 @@
 .navbar-sec-3{
     font-size: 60px;
 }
+.navbar-sec-2{
+    width: 500px;
+    font-size: 20px;
+    margin-left: -25%;
+
+}
+@media only screen and (max-width: 920px){
+    .navbar-sec-2{
+       margin-left: -100px;
+    }
+}
